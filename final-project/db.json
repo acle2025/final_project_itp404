@@ -1,0 +1,608 @@
+{
+  "users": [
+    {
+      "fname": "Tommy",
+      "lname": "Trojan",
+      "email": "ttrojan@usc.edu",
+      "password": "usc",
+      "shippingAddresses": [
+        {
+          "street": "3551 Trousdale Pkwy",
+          "city": "Los Angeles",
+          "state": "CA",
+          "zip": "90089",
+          "country": "United States"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "id": 2,
+      "fname": "Bob",
+      "lname": "Smith",
+      "email": "bobsmith@gmail.com",
+      "password": "bsmith1234",
+      "shippingAddresses": []
+    },
+    {
+      "fname": "Daniel",
+      "lname": "Vergara",
+      "email": "daniel03vergara@gmail.com",
+      "password": "Dv05052003.",
+      "shippingAddresses": [
+        {
+          "street": "1123 W 37th Dr",
+          "city": "Los Angeles",
+          "state": "CA",
+          "zip": "90007",
+          "country": "United States"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "fname": "Peter",
+      "lname": "Pan",
+      "email": "ppan@gmail.com",
+      "password": "tinkerbell",
+      "shippingAddresses": [
+        {
+          "street": "1000 Pixie Dust Ave",
+          "city": "Neverland",
+          "state": "CA",
+          "zip": "90000",
+          "country": "United States"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "email": "tturner@gmail.com",
+      "password": "fairy",
+      "fname": "timmy",
+      "lname": "turner",
+      "id": 5
+    },
+    {
+      "fname": "Anthony",
+      "lname": "Le",
+      "email": "ale@gmail.com",
+      "password": "acle",
+      "shippingAddresses": [
+        {
+          "street": "",
+          "city": "",
+          "state": "",
+          "zip": "",
+          "country": ""
+        }
+      ],
+      "id": 6
+    },
+    {
+      "fname": "Pop",
+      "lname": "Corn",
+      "email": "popcorn@gmail.cpm",
+      "password": "ppcorn",
+      "shippingAddresses": [
+        {
+          "street": "1000 corn street",
+          "city": "butter land",
+          "state": "CA",
+          "zip": "90000",
+          "country": "United States"
+        }
+      ],
+      "id": 7
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "type": "T-Shirt Front",
+      "price": 15,
+      "customizations": [
+        "Size",
+        "Color"
+      ],
+      "images": [
+        "tshirt1a.jpg",
+        "tshirt1d.jpg",
+        "tshirt2a.jpg",
+        "tshirt2c.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "T-Shirt Back",
+      "price": 15,
+      "customizations": [
+        "Size",
+        "Color"
+      ],
+      "images": [
+        "tshirt1b.jpg",
+        "tshirt1c.jpg",
+        "tshirt2b.jpg",
+        "tshirt2d.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "Hoodie",
+      "price": 35,
+      "customizations": [
+        "Size",
+        "Color"
+      ],
+      "images": [
+        "hoodie1.jpg",
+        "hoodie2.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "Tote Bag",
+      "price": 15,
+      "customizations": [
+        "Material",
+        "Color"
+      ],
+      "images": [
+        "tote1.jpg",
+        "tote2.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "Poster",
+      "price": 35,
+      "customizations": [
+        "Size"
+      ],
+      "images": [
+        "poster.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "Keychain",
+      "price": 35,
+      "customizations": [
+        "Material"
+      ],
+      "images": [
+        "keychain.jpg"
+      ]
+    }
+  ],
+  "cart": [
+    {
+      "userId": 1,
+      "productId": "3",
+      "customizations": {
+        "size": "L",
+        "color": "White",
+        "material": ""
+      },
+      "favorite": "3iPSVi54hsacKKl1xIR2eH",
+      "quantity": 1,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "productId": "1",
+      "customizations": {
+        "size": "M",
+        "color": "Black",
+        "material": ""
+      },
+      "favorite": "380UbSJnNQ9SioALGRB0Cf",
+      "quantity": 4,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "productId": "1",
+      "customizations": {
+        "size": "XS",
+        "color": "White",
+        "material": ""
+      },
+      "favorite": "6s84u2TUpR3wdUv4NgKA2j",
+      "quantity": 1,
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "productId": "6",
+      "customizations": {
+        "size": "",
+        "color": "",
+        "material": "Plastic"
+      },
+      "favorite": "0du5cEVh5yTK9QJze8zA0C",
+      "quantity": 1,
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "productId": "4",
+      "customizations": {
+        "size": "",
+        "color": "White",
+        "material": "Canvas"
+      },
+      "favorite": "6s84u2TUpR3wdUv4NgKA2j",
+      "quantity": 2,
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "productId": "1",
+      "customizations": {
+        "size": "M",
+        "color": "White",
+        "material": ""
+      },
+      "favorite": "6s84u2TUpR3wdUv4NgKA2j",
+      "quantity": 3,
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "productId": "1",
+      "customizations": {
+        "size": "XL",
+        "color": "Black",
+        "material": ""
+      },
+      "favorite": "10FLjwfpbxLmW8c25Xyc2N",
+      "quantity": 1,
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "productId": "4",
+      "customizations": {
+        "size": "",
+        "color": "White",
+        "material": "Canvas"
+      },
+      "favorite": "0du5cEVh5yTK9QJze8zA0C",
+      "quantity": 1,
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "productId": "5",
+      "customizations": {
+        "size": "Square-Gloss",
+        "color": "",
+        "material": ""
+      },
+      "favorite": "6s84u2TUpR3wdUv4NgKA2j",
+      "quantity": 5,
+      "id": 10
+    },
+    {
+      "userId": 1,
+      "productId": "1",
+      "customizations": {
+        "size": "XS",
+        "color": "Black",
+        "material": ""
+      },
+      "favorite": "0du5cEVh5yTK9QJze8zA0C",
+      "quantity": 1,
+      "id": 11
+    }
+  ],
+  "orders": [
+    {
+      "userId": 1,
+      "products": [
+        {
+          "productId": "3",
+          "quantity": 1,
+          "customizations": {
+            "size": "L",
+            "color": "White",
+            "material": ""
+          }
+        },
+        {
+          "productId": "1",
+          "quantity": 4,
+          "customizations": {
+            "size": "M",
+            "color": "Black",
+            "material": ""
+          }
+        },
+        {
+          "productId": "1",
+          "quantity": 1,
+          "customizations": {
+            "size": "XS",
+            "color": "White",
+            "material": ""
+          }
+        },
+        {
+          "productId": "6",
+          "quantity": 1,
+          "customizations": {
+            "size": "",
+            "color": "",
+            "material": "Plastic"
+          }
+        },
+        {
+          "productId": "4",
+          "quantity": 2,
+          "customizations": {
+            "size": "",
+            "color": "White",
+            "material": "Canvas"
+          }
+        },
+        {
+          "productId": "2",
+          "quantity": 1,
+          "customizations": {
+            "size": "XL",
+            "color": "Black",
+            "material": ""
+          }
+        }
+      ],
+      "totalPrice": 190,
+      "shippingAddress": {
+        "id": 1,
+        "street": "3551 Trousdale Pkwy",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90089",
+        "country": "United States"
+      },
+      "gift": true,
+      "giftMessage": "This is for you friend!",
+      "recipientName": "Tommy Trojan",
+      "created": "12/12/2024, 4:42:01 AM",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "products": [
+        {
+          "productId": "3",
+          "quantity": 1,
+          "customizations": {
+            "size": "L",
+            "color": "White",
+            "material": ""
+          }
+        },
+        {
+          "productId": "1",
+          "quantity": 4,
+          "customizations": {
+            "size": "M",
+            "color": "Black",
+            "material": ""
+          }
+        },
+        {
+          "productId": "1",
+          "quantity": 1,
+          "customizations": {
+            "size": "XS",
+            "color": "White",
+            "material": ""
+          }
+        },
+        {
+          "productId": "6",
+          "quantity": 1,
+          "customizations": {
+            "size": "",
+            "color": "",
+            "material": "Plastic"
+          }
+        },
+        {
+          "productId": "4",
+          "quantity": 2,
+          "customizations": {
+            "size": "",
+            "color": "White",
+            "material": "Canvas"
+          }
+        },
+        {
+          "productId": "1",
+          "quantity": 3,
+          "customizations": {
+            "size": "M",
+            "color": "White",
+            "material": ""
+          }
+        },
+        {
+          "productId": "1",
+          "quantity": 1,
+          "customizations": {
+            "size": "XL",
+            "color": "Black",
+            "material": ""
+          }
+        },
+        {
+          "productId": "4",
+          "quantity": 1,
+          "customizations": {
+            "size": "",
+            "color": "White",
+            "material": "Canvas"
+          }
+        }
+      ],
+      "totalPrice": 250,
+      "shippingAddress": {
+        "street": "3551 Trousdale Pkwy",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90089",
+        "country": "United States"
+      },
+      "gift": true,
+      "giftMessage": "This is for you :)",
+      "recipientName": "Anthony Le",
+      "created": "12/12/2024, 9:24:56 PM",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "products": [
+        {
+          "productId": "3",
+          "quantity": 1,
+          "customizations": {
+            "size": "L",
+            "color": "White",
+            "material": ""
+          }
+        },
+        {
+          "productId": "1",
+          "quantity": 4,
+          "customizations": {
+            "size": "M",
+            "color": "Black",
+            "material": ""
+          }
+        },
+        {
+          "productId": "1",
+          "quantity": 1,
+          "customizations": {
+            "size": "XS",
+            "color": "White",
+            "material": ""
+          }
+        },
+        {
+          "productId": "6",
+          "quantity": 1,
+          "customizations": {
+            "size": "",
+            "color": "",
+            "material": "Plastic"
+          }
+        },
+        {
+          "productId": "4",
+          "quantity": 2,
+          "customizations": {
+            "size": "",
+            "color": "White",
+            "material": "Canvas"
+          }
+        },
+        {
+          "productId": "1",
+          "quantity": 3,
+          "customizations": {
+            "size": "M",
+            "color": "White",
+            "material": ""
+          }
+        },
+        {
+          "productId": "1",
+          "quantity": 1,
+          "customizations": {
+            "size": "XL",
+            "color": "Black",
+            "material": ""
+          }
+        },
+        {
+          "productId": "4",
+          "quantity": 1,
+          "customizations": {
+            "size": "",
+            "color": "White",
+            "material": "Canvas"
+          }
+        },
+        {
+          "productId": "5",
+          "quantity": 5,
+          "customizations": {
+            "size": "Square-Gloss",
+            "color": "",
+            "material": ""
+          }
+        },
+        {
+          "productId": "1",
+          "quantity": 1,
+          "customizations": {
+            "size": "XS",
+            "color": "Black",
+            "material": ""
+          }
+        }
+      ],
+      "totalPrice": 440,
+      "shippingAddress": {
+        "street": "3551 Trousdale Pkwy",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90089",
+        "country": "United States"
+      },
+      "gift": true,
+      "giftMessage": "this is for you",
+      "recipientName": "tony Trojan",
+      "created": "12/12/2024, 9:51:44 PM",
+      "id": 3
+    }
+  ],
+  "favorites": [
+    {
+      "userId": 1,
+      "id": "380UbSJnNQ9SioALGRB0Cf",
+      "type": "album",
+      "name": "ROMANCE : UNTOLD -daydream-",
+      "image": "https://i.scdn.co/image/ab67616d0000b273ac9d6ee9be9186ff1a28c900",
+      "hearted": "12/12/2024, 4:42:01 AM"
+    },
+    {
+      "userId": 1,
+      "id": "6s84u2TUpR3wdUv4NgKA2j",
+      "type": "album",
+      "name": "SOUR",
+      "image": "https://i.scdn.co/image/ab67616d0000b273a91c10fe9472d9bd89802e5a",
+      "hearted": "12/12/2024, 2:13:41 AM"
+    },
+    {
+      "userId": 1,
+      "id": "3iPSVi54hsacKKl1xIR2eH",
+      "type": "album",
+      "name": "Short n' Sweet",
+      "image": "https://i.scdn.co/image/ab67616d0000b273fd8d7a8d96871e791cb1f626",
+      "hearted": "12/12/2024, 12:38:13 AM"
+    },
+    {
+      "userId": 1,
+      "id": "0du5cEVh5yTK9QJze8zA0C",
+      "type": "artist",
+      "name": "Bruno Mars",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebc36dd9eb55fb0db4911f25dd",
+      "hearted": "12/11/2024, 4:12:48 PM"
+    }
+  ]
+}
